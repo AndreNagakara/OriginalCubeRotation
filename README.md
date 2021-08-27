@@ -1,5 +1,40 @@
 # OriginalCubeRotation
 
+* O programa roda?
+Sim.
+
+* A entrada e saída de dados é 
+conforme o esperado?
+Sim.
+
+* Está formatado adequadamente?
+Na medida do possível, planejei fazer algo simples em uma única página, sem direcionamentos.
+
+* O programa resolve todos os 
+casos, incluindo diferentes 
+números de linhas e colunas, 
+tabelas grandes e pequenas e 
+casos de erro?
+Sim, dentro das especificações do projeto.
+
+* Para os casos tratados, estão 
+sendo tratados corretamente?
+Sim, todos os cados passados e vários outros que inserí.
+
+* Como você sabe disso?
+Fiz testes manualmente e automatizados.
+
+* Você fez testes usando algum 
+exemplo de dados? Se sim, por 
+favor inclua isso no seu código.
+Todos os exemplos foram testados.
+
+* Você escreveu teste unitário?
+Não, o tempo esgotou. 
+
+* Conte-nos sobre isso no 
+README. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
 ## Development server
