@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QuadradoComponent } from './quadrado/quadrado.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuadradoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+
+<div *ngIf="texto == ''">
+<h1>Entrada </h1>
+
+<p>
+<input #entrada type="text" name="entrada" id="entrada" oninput="this.value = this.value.replace(/[^0-9\,]+/g, '');">
+</p>
+
+<button (click)="rotacionar($event)" type="submit">Rotacionar</button>
+</div>
+
+
+
+<div *ngIf="texto != ''">
+    <div class="container container-sm" style="height: 100px">
+    <button (click)="voltar($event)"  type="submit">Voltar</button>
+
+    <h1>Saída</h1>
+
+    <h1 *ngIf="texto.includes('Inválido')" >{{ texto }} </h1>
+    </div>
+    <div class="mh-100">
+    <table class="table table-bordered " style="height: 100px">
+      <tbody>
+        <tr *ngFor="let elem of matriz">
+          <td *ngFor="let kv of elem | keyvalue" >{{ kv.value }}</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+ </div>
