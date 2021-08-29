@@ -30,10 +30,9 @@ favor inclua isso no seu código.
 Todos os exemplos foram testados.
 
 * Você escreveu teste unitário?
-Não, o tempo esgotou. 
+Sim, os 6 testes descritos no documento. 
 
-* Conte-nos sobre isso no 
-README. 
+* Conte-nos sobre isso no README. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
