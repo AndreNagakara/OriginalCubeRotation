@@ -31,7 +31,6 @@ export class QuadradoComponent implements OnInit {
     var b = Array.from(this.texto.split(','),Number).filter(Number) ;
 
      if (Number.isInteger(Math.sqrt(b.length)) && b.length > 0)  {
-      this.texto = "teste1";
 
       var nlistas = Math.floor(Math.sqrt(b.length));
 
@@ -42,8 +41,6 @@ export class QuadradoComponent implements OnInit {
 
       var x = 0
       var y = -1
-      this.texto = "teste2";
-
 
       for(var i=0; i<Math.sqrt(b.length); i++) {
         this.matriz.push(new Array(Math.sqrt(b.length)).fill(null));
